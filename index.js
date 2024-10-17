@@ -1,4 +1,4 @@
- const myText = document.getElementById('myText');
+ const myText = document.getElementById('myText').value;
  const submit = document.getElementById('mySubmit');
  const resultElement=  document.getElementById('resultElement'); 
  
@@ -7,6 +7,4 @@ submit.addEventListener('click',function(){
   checkAge()
 })
 
-function checkAge(){
- 
-}
+
