@@ -8,9 +8,9 @@ submit.addEventListener('click',function(){
 })
 
 function checkAge(age) {
-    if (age>=18) {
-        return "You are old enough.";
+    if(age>=18){
+        console.log("You are old enough");
     } else {
-        return "You are not old enough.";
+        console.log("you are not old enough");
     }
 }
