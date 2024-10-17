@@ -7,11 +7,10 @@ submit.addEventListener('click',function(){
   checkAge()
 })
 
-checkAge = function(){
-    if(age>=18){
-        console.log('you are allowed to vote')
-    
-    }else{
-        console.log('you are not allowed to vote');
+function checkAge(age) {
+    if (age>=18) {
+        return "You are old enough.";
+    } else {
+        return "You are not old enough.";
     }
 }
