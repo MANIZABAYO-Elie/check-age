@@ -8,14 +8,17 @@ submit.addEventListener('click',function(){
 })
 
 function checkAge(age) {
-    if(age>=18){
+    if(age===""){
+       resultElement.innerHTML = "please enter a valid age"
+    }
+   else if(age>=18){
         console.log("You are old enough");
         resultElement.innerHTML = "you are  old enough"
     } else if(age<18){
         console.log("you are not old enough");
         resultElement.innerHTML = "you are not old enough"
     }else{
-        console.log("you are not old enough");
-        resultElement.innerHTML = "you are not old enough"  
+        console.log("");
+        resultElement.innerHTML = "please check your age"  
     }
 }
