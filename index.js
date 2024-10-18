@@ -6,7 +6,8 @@
 submit.addEventListener('click',function(){
   checkAge()
 })
-
+age =myText.value;
+age =Number(age);
 function checkAge(age) {
     if(age===""){
        resultElement.innerHTML = "please enter a valid age"
